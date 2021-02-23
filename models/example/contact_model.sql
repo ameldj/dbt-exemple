@@ -5,4 +5,4 @@
 select * 
 
 from `cooperons-export`.`s3_schema`.`contact`
-where id = 1
+where id = 6
