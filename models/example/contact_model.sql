@@ -4,5 +4,5 @@
 {{ config(materialized='table') }}
 select * 
 
-from {{ source('contact') }}
-where id = 150
+from `cooperons-export`.`s3_schema`.`contact`
+where id = 1
